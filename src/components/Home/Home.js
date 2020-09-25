@@ -32,7 +32,7 @@ const Home = () => {
                                 <Card.Title style={{ textAlign: 'center', fontSize: '30px', fontFamily: 'Bebas Neue' }}>Sajek</Card.Title>
                                 <Button onClick={() => {
                                     handleBooking(1);
-                                    setPlace({place: 'Sajek', id: 1, lat: "23.307419°", lng: '92.189155°'});
+                                    setPlace({place: 'Sajek', id: 1, lat: 23.307419, lng: 92.189155 });
                                 }} style={{ margin: '0px auto', display: 'block' }} variant="warning">Book Now</Button>
                             </Card.Body>
                         </Card>
@@ -44,7 +44,7 @@ const Home = () => {
                                 <Card.Title style={{ textAlign: 'center', fontSize: '30px', fontFamily: 'Bebas Neue' }}>Sreemongol</Card.Title>
                                 <Button onClick={() => {
                                     handleBooking(2);
-                                    setPlace({place: 'Sreemongol', id: 2, lat: '24.302905°', lng: '91.792124°'});
+                                    setPlace({place: 'Sreemongol', id: 2, lat: 24.302905, lng: 91.792124});
                                 }} style={{ margin: '0px auto', display: 'block' }} variant="warning">Book Now</Button>
                             </Card.Body>
                         </Card>
@@ -56,7 +56,7 @@ const Home = () => {
                                 <Card.Title style={{ textAlign: 'center', fontSize: '30px', fontFamily: 'Bebas Neue' }}>Sundorbon</Card.Title>
                                 <Button onClick={() => {
                                     handleBooking(3);
-                                    setPlace({place: 'Sundorbon', id: 3, lat: '25.05748°', lng: '88.28261°'});
+                                    setPlace({place: 'Sundorbon', id: 3, lat: 25.05748, lng: 88.28261});
                                 }} style={{ margin: '0px auto', display: 'block' }} variant="warning">Book Now</Button>
                             </Card.Body>
                         </Card>

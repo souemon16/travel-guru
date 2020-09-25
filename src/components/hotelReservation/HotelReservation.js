@@ -8,16 +8,17 @@ import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import { placeContext } from '../../App';
 
 const HotelReservation = () => {
-    const [ place, setPlace] = useContext(placeContext);
+    const [place, setPlace] = useContext(placeContext);
 
     const mapStyles = {
         height: "100vh",
-        width: "100%"
+        width: "100%",
+        borderRadius: '13px'
     };
 
     const defaultCenter = {
-        lat: 21.4394636,
-        lng: 92.00773159999994
+        lat: place.lat,
+        lng: place.lng
     }
     return (
         <div className="container">
@@ -65,7 +66,7 @@ const HotelReservation = () => {
                     <LoadScript googleMapsApiKey='AIzaSyDsFZkPG5TwCqnutM9H6q8GYj7chJtfOMU'>
                         <GoogleMap
                             mapContainerStyle={mapStyles}
-                            zoom={14}
+                            zoom={10}
                             center={defaultCenter} />
                     </LoadScript>
                 </div>

@@ -230,7 +230,7 @@ const Login = () => {
             </button>
                 <button
                     className='btn btn-block btn-outline-secondary font-weight-bold mb-2'
-                    style={{ borderRadius: '25px' }}>
+                    style={{ borderRadius: '25px' }} onClick={handleFbSignIn}>
                     <img className='icon' style={{ float: 'left' }} src={iconFb} alt="Facebook" /> Continue with Facebook
             </button>
             </div> : <div className='col-md-5'>
@@ -242,7 +242,7 @@ const Login = () => {
             </button>
                     <button
                         className='btn btn-block btn-outline-secondary font-weight-bold mb-2'
-                        style={{ borderRadius: '25px' }}>
+                        style={{ borderRadius: '25px' }} onClick={handleFbSignIn}>
                         <img className='icon' style={{ float: 'left' }} src={iconFb} alt="Facebook" /> Continue with Facebook
             </button>
                 </div>}

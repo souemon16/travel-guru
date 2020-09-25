@@ -37,9 +37,9 @@ function App() {
           <Route path='/login'>
             <Login />
           </Route>
-          <Route path='/find-hotel'>
+          <PrivateRoute path='/find-hotel'>
             <HotelReservation />
-          </Route>
+          </PrivateRoute>
           <Route path="*">
             <NotFound />
           </Route>
