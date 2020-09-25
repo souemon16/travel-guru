@@ -1,0 +1,24 @@
+main{
+    background-image: url('../../Image/Home.png');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.description h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.description p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

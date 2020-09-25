@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+.container-fluid{
+    background-image: url('../../Image/Home.png');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking-form{
+    height: 400px;
+    width: 400px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px lightslategrey;
+}
+form{
+    padding-top: 20px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.description p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

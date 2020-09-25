@@ -1,0 +1,30 @@
+.registration-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+.icon{
+    width: 37px;
+    height: 37px;
+}
+.signUpForm{
+    height: 457px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px;
+}
+.signInForm{
+    height: 330px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px;
+}
+
