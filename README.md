@@ -15,7 +15,7 @@
 - Users can go any page without loading full pages. (by react-router-dom)
 - Clients needs to registered to see their service.
 - Anyone can login or make registration via google or facebook.
-- Client can choose hotel and they can see also travel place in ###google map.
+- Client can choose hotel and they can see also travel place in google map.
 
 
 ### Technologies I used: 
